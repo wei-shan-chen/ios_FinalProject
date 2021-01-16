@@ -76,7 +76,7 @@ struct PhotofriView: View {
                  }
                  
             }
-            .background(Color(red: 1, green: 0.6, blue: 0.6)).cornerRadius(20)
+            .background(Color(red: 1, green: 0.8, blue: 0.8))
             .onAppear(perform: {
                 fetchData()
             })

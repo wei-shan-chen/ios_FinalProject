@@ -19,7 +19,8 @@ struct CoverView: View {
     @State private var offset = CGSize.zero
     @State var isNavigationBarHidden: Bool = true
     @State var backColor = 1
-    @State private var name = ""
+    @EnvironmentObject var name: UserName
+    @State var name1 = ""
 
     var body: some View {
         NavigationView{
@@ -56,7 +57,7 @@ struct CoverView: View {
                                 }
                             })
                     )
-                TextField("你的名字", text: $name)
+                TextField("你的名字", text: $name1)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                     .frame(width: 200, height: 50, alignment: .center)
                     .offset(x: 0, y: -40)
@@ -130,5 +131,6 @@ struct CoverView: View {
 struct CoverView_Previews: PreviewProvider{
     static var previews: some View {
         CoverView()
+            //.environmentObject(UserName())
     }
 }

@@ -9,29 +9,41 @@ import SwiftUI
 
 struct Page1View: View {
     
-
+    @EnvironmentObject var name: UserName
     var body: some View {
         TabView{
             ZStack{
                 Color.yellow
+                    .edgesIgnoringSafeArea(.all)
                 PhotoView()
             }
             .tabItem {
+                
                 Text("cat")
                 Image(systemName:"face.smiling")
             }
             
-            PhotofriView()
+            ZStack{
+                Color.red
+                    .edgesIgnoringSafeArea(.all)
+                PhotofriView()
+            }
             .tabItem {
+                
                 Text("photo")
                 Image(systemName:"heart.circle")
             }
-           
-            YoutubeView()
+            ZStack{
+                Color.pink
+                    .edgesIgnoringSafeArea(.all)
+                YoutubeView()
+            }
             .tabItem {
+
                 Text("makeup")
                 Image(systemName:"play.circle")
             }
+            
             SelectPhoto()
                 .tabItem {
                     Text("picture")

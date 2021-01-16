@@ -73,7 +73,7 @@ struct YoutubeView: View {
                         })
             
         }
-        .padding().background(Color(red: 0.9, green: 0.4, blue: 0.4)).cornerRadius(20)
+        .padding().background(Color(red: 0.9, green: 0.4, blue: 0.4))
         
     }
 }
