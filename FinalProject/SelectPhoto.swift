@@ -9,6 +9,7 @@ import SwiftUI
 
 struct SelectPhoto: View {
     @State private var showSelectPhoto = false
+    @State private var savePhoto = false
     @State private var selectImage = Image(systemName:"photo")
     @State private var scale : CGFloat = 1
     @State private var brightness : Double = 0
@@ -26,7 +27,7 @@ struct SelectPhoto: View {
                 }) { selectImage
                     .resizable()
                     .scaledToFill()
-                    .frame(width: geometry.size.width, height: geometry.size.width)
+                    .frame(width: geometry.size.width-50, height: geometry.size.width)
                     .clipped()
                     .scaleEffect(scale)
                     .brightness(brightness)
@@ -39,7 +40,7 @@ struct SelectPhoto: View {
                 .sheet(isPresented: $showSelectPhoto){
                     ImagePickerController(showSelectPhoto: self.$showSelectPhoto, selectImage: self.$selectImage)
                 }
-                
+    
                 
                 Form{
                     VStack{

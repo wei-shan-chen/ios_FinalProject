@@ -48,7 +48,7 @@ struct widgettEntryView : View {
     var body: some View {
         
         ZStack{
-            Image("back")
+            Image("backwid")
             Text(entry.date, style: .time)
         }
         /*
