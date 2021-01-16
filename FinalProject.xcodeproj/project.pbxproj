@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,7 +13,58 @@
 		4995467725A16F2000370261 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4995467625A16F2000370261 /* Preview Assets.xcassets */; };
 		4995467925A16F2000370261 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4995467825A16F2000370261 /* Persistence.swift */; };
 		4995467C25A16F2000370261 /* FinalProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4995467A25A16F2000370261 /* FinalProject.xcdatamodeld */; };
+		4995468925A16FA900370261 /* CoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4995468825A16FA900370261 /* CoverView.swift */; };
+		4995468F25A17F5600370261 /* Page1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4995468E25A17F5600370261 /* Page1View.swift */; };
+		4995469B25A2E1F700370261 /* PhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4995469A25A2E1F700370261 /* PhotoView.swift */; };
+		4995469F25A2E8BC00370261 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4995469E25A2E8BC00370261 /* MapView.swift */; };
+		499595EC25AEC6AE001C9BE5 /* WaterfallGrid in Frameworks */ = {isa = PBXBuildFile; productRef = 499595EB25AEC6AE001C9BE5 /* WaterfallGrid */; };
+		499595EF25AEC774001C9BE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499595EE25AEC774001C9BE5 /* ViewController.swift */; };
+		499595F425AED05C001C9BE5 /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 499595F325AED05C001C9BE5 /* FacebookLogin */; };
+		499595F725AED168001C9BE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499595F625AED168001C9BE5 /* AppDelegate.swift */; };
+		499595FC25AED73D001C9BE5 /* SelectPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499595FB25AED73D001C9BE5 /* SelectPhoto.swift */; };
+		4995960B25AEDDC4001C9BE5 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4995960A25AEDDC4001C9BE5 /* WidgetKit.framework */; };
+		4995960D25AEDDC4001C9BE5 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4995960C25AEDDC4001C9BE5 /* SwiftUI.framework */; };
+		4995961025AEDDC4001C9BE5 /* Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4995960F25AEDDC4001C9BE5 /* Widget.swift */; };
+		4995961325AEDDC7001C9BE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4995961225AEDDC7001C9BE5 /* Assets.xcassets */; };
+		4995961525AEDDC7001C9BE5 /* Widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 4995961125AEDDC4001C9BE5 /* Widget.intentdefinition */; };
+		4995961625AEDDC7001C9BE5 /* Widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 4995961125AEDDC4001C9BE5 /* Widget.intentdefinition */; };
+		4995961925AEDDC7001C9BE5 /* WidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4995960825AEDDC4001C9BE5 /* WidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4995962125B035D5001C9BE5 /* Try.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4995962025B035D5001C9BE5 /* Try.swift */; };
+		4995963325B2D411001C9BE5 /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 4995963225B2D411001C9BE5 /* URLImage */; };
+		49C4487025A593690032C316 /* PhotoDatafri.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C4486F25A593690032C316 /* PhotoDatafri.swift */; };
+		49C4487325A5945D0032C316 /* PhotofriView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C4487225A5945D0032C316 /* PhotofriView.swift */; };
+		49C4487625A597630032C316 /* PhototfriImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C4487525A597630032C316 /* PhototfriImageView.swift */; };
+		49C4487A25A5A3110032C316 /* YoutubeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C4487925A5A3110032C316 /* YoutubeView.swift */; };
+		49C4487D25A5A6690032C316 /* YoutubeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C4487C25A5A6690032C316 /* YoutubeData.swift */; };
+		49C4488325A5B1B20032C316 /* YoutubeImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C4488225A5B1B20032C316 /* YoutubeImage.swift */; };
+		55BFB01A25A872D800B3B45C /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BFB01925A872D800B3B45C /* SafariView.swift */; };
+		55BFB01E25A8798500B3B45C /* ImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BFB01D25A8798500B3B45C /* ImagePickerController.swift */; };
+		55FD581F25AD6634003D8ED4 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 55FD581E25AD6634003D8ED4 /* Alamofire */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4995961725AEDDC7001C9BE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4995466425A16F1E00370261 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4995960725AEDDC4001C9BE5;
+			remoteInfo = WidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4995961D25AEDDC7001C9BE5 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4995961925AEDDC7001C9BE5 /* WidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4995466C25A16F1E00370261 /* FinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +75,29 @@
 		4995467825A16F2000370261 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		4995467B25A16F2000370261 /* FinalProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FinalProject.xcdatamodel; sourceTree = "<group>"; };
 		4995467D25A16F2000370261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4995468825A16FA900370261 /* CoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverView.swift; sourceTree = "<group>"; };
+		4995468E25A17F5600370261 /* Page1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page1View.swift; sourceTree = "<group>"; };
+		4995469A25A2E1F700370261 /* PhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoView.swift; sourceTree = "<group>"; };
+		4995469E25A2E8BC00370261 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		499595EE25AEC774001C9BE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		499595F625AED168001C9BE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		499595FB25AED73D001C9BE5 /* SelectPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPhoto.swift; sourceTree = "<group>"; };
+		4995960825AEDDC4001C9BE5 /* WidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		4995960A25AEDDC4001C9BE5 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		4995960C25AEDDC4001C9BE5 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		4995960F25AEDDC4001C9BE5 /* Widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Widget.swift; sourceTree = "<group>"; };
+		4995961125AEDDC4001C9BE5 /* Widget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Widget.intentdefinition; sourceTree = "<group>"; };
+		4995961225AEDDC7001C9BE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4995961425AEDDC7001C9BE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4995962025B035D5001C9BE5 /* Try.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Try.swift; sourceTree = "<group>"; };
+		49C4486F25A593690032C316 /* PhotoDatafri.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDatafri.swift; sourceTree = "<group>"; };
+		49C4487225A5945D0032C316 /* PhotofriView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotofriView.swift; sourceTree = "<group>"; };
+		49C4487525A597630032C316 /* PhototfriImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhototfriImageView.swift; sourceTree = "<group>"; };
+		49C4487925A5A3110032C316 /* YoutubeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeView.swift; sourceTree = "<group>"; };
+		49C4487C25A5A6690032C316 /* YoutubeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeData.swift; sourceTree = "<group>"; };
+		49C4488225A5B1B20032C316 /* YoutubeImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeImage.swift; sourceTree = "<group>"; };
+		55BFB01925A872D800B3B45C /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		55BFB01D25A8798500B3B45C /* ImagePickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +105,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55FD581F25AD6634003D8ED4 /* Alamofire in Frameworks */,
+				499595EC25AEC6AE001C9BE5 /* WaterfallGrid in Frameworks */,
+				4995963325B2D411001C9BE5 /* URLImage in Frameworks */,
+				499595F425AED05C001C9BE5 /* FacebookLogin in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4995960525AEDDC4001C9BE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4995960D25AEDDC4001C9BE5 /* SwiftUI.framework in Frameworks */,
+				4995960B25AEDDC4001C9BE5 /* WidgetKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,7 +127,10 @@
 		4995466325A16F1E00370261 = {
 			isa = PBXGroup;
 			children = (
+				499595F625AED168001C9BE5 /* AppDelegate.swift */,
 				4995466E25A16F1E00370261 /* FinalProject */,
+				4995960E25AEDDC4001C9BE5 /* Widget */,
+				4995960925AEDDC4001C9BE5 /* Frameworks */,
 				4995466D25A16F1E00370261 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				4995466C25A16F1E00370261 /* FinalProject.app */,
+				4995960825AEDDC4001C9BE5 /* WidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,7 +149,22 @@
 			children = (
 				4995466F25A16F1E00370261 /* FinalProjectApp.swift */,
 				4995467125A16F1E00370261 /* ContentView.swift */,
+				4995468825A16FA900370261 /* CoverView.swift */,
+				55BFB01925A872D800B3B45C /* SafariView.swift */,
+				4995468E25A17F5600370261 /* Page1View.swift */,
+				499595FB25AED73D001C9BE5 /* SelectPhoto.swift */,
+				499595EE25AEC774001C9BE5 /* ViewController.swift */,
+				49C4487925A5A3110032C316 /* YoutubeView.swift */,
+				55BFB01D25A8798500B3B45C /* ImagePickerController.swift */,
+				49C4488225A5B1B20032C316 /* YoutubeImage.swift */,
+				49C4487C25A5A6690032C316 /* YoutubeData.swift */,
+				49C4487225A5945D0032C316 /* PhotofriView.swift */,
+				49C4487525A597630032C316 /* PhototfriImageView.swift */,
+				49C4486F25A593690032C316 /* PhotoDatafri.swift */,
+				4995469E25A2E8BC00370261 /* MapView.swift */,
+				4995469A25A2E1F700370261 /* PhotoView.swift */,
 				4995467325A16F2000370261 /* Assets.xcassets */,
+				4995962025B035D5001C9BE5 /* Try.swift */,
 				4995467825A16F2000370261 /* Persistence.swift */,
 				4995467D25A16F2000370261 /* Info.plist */,
 				4995467A25A16F2000370261 /* FinalProject.xcdatamodeld */,
@@ -75,6 +181,26 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		4995960925AEDDC4001C9BE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4995960A25AEDDC4001C9BE5 /* WidgetKit.framework */,
+				4995960C25AEDDC4001C9BE5 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4995960E25AEDDC4001C9BE5 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				4995960F25AEDDC4001C9BE5 /* Widget.swift */,
+				4995961125AEDDC4001C9BE5 /* Widget.intentdefinition */,
+				4995961225AEDDC7001C9BE5 /* Assets.xcassets */,
+				4995961425AEDDC7001C9BE5 /* Info.plist */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -85,15 +211,40 @@
 				4995466825A16F1E00370261 /* Sources */,
 				4995466925A16F1E00370261 /* Frameworks */,
 				4995466A25A16F1E00370261 /* Resources */,
+				4995961D25AEDDC7001C9BE5 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4995961825AEDDC7001C9BE5 /* PBXTargetDependency */,
+			);
+			name = FinalProject;
+			packageProductDependencies = (
+				55FD581E25AD6634003D8ED4 /* Alamofire */,
+				499595EB25AEC6AE001C9BE5 /* WaterfallGrid */,
+				499595F325AED05C001C9BE5 /* FacebookLogin */,
+				4995963225B2D411001C9BE5 /* URLImage */,
+			);
+			productName = FinalProject;
+			productReference = 4995466C25A16F1E00370261 /* FinalProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4995960725AEDDC4001C9BE5 /* WidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4995961A25AEDDC7001C9BE5 /* Build configuration list for PBXNativeTarget "WidgetExtension" */;
+			buildPhases = (
+				4995960425AEDDC4001C9BE5 /* Sources */,
+				4995960525AEDDC4001C9BE5 /* Frameworks */,
+				4995960625AEDDC4001C9BE5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = FinalProject;
-			productName = FinalProject;
-			productReference = 4995466C25A16F1E00370261 /* FinalProject.app */;
-			productType = "com.apple.product-type.application";
+			name = WidgetExtension;
+			productName = WidgetExtension;
+			productReference = 4995960825AEDDC4001C9BE5 /* WidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -107,6 +258,9 @@
 					4995466B25A16F1E00370261 = {
 						CreatedOnToolsVersion = 12.3;
 					};
+					4995960725AEDDC4001C9BE5 = {
+						CreatedOnToolsVersion = 12.3;
+					};
 				};
 			};
 			buildConfigurationList = 4995466725A16F1E00370261 /* Build configuration list for PBXProject "FinalProject" */;
@@ -118,11 +272,18 @@
 				Base,
 			);
 			mainGroup = 4995466325A16F1E00370261;
+			packageReferences = (
+				55FD581D25AD6634003D8ED4 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				499595EA25AEC6AE001C9BE5 /* XCRemoteSwiftPackageReference "WaterfallGrid" */,
+				499595F225AED05C001C9BE5 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+				4995963125B2D411001C9BE5 /* XCRemoteSwiftPackageReference "url-image" */,
+			);
 			productRefGroup = 4995466D25A16F1E00370261 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				4995466B25A16F1E00370261 /* FinalProject */,
+				4995960725AEDDC4001C9BE5 /* WidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -137,6 +298,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4995960625AEDDC4001C9BE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4995961325AEDDC7001C9BE5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -145,13 +314,47 @@
 			buildActionMask = 2147483647;
 			files = (
 				4995467925A16F2000370261 /* Persistence.swift in Sources */,
+				4995961625AEDDC7001C9BE5 /* Widget.intentdefinition in Sources */,
+				49C4487D25A5A6690032C316 /* YoutubeData.swift in Sources */,
+				4995469F25A2E8BC00370261 /* MapView.swift in Sources */,
+				49C4487025A593690032C316 /* PhotoDatafri.swift in Sources */,
+				49C4487325A5945D0032C316 /* PhotofriView.swift in Sources */,
+				49C4488325A5B1B20032C316 /* YoutubeImage.swift in Sources */,
+				4995468925A16FA900370261 /* CoverView.swift in Sources */,
+				4995469B25A2E1F700370261 /* PhotoView.swift in Sources */,
+				49C4487625A597630032C316 /* PhototfriImageView.swift in Sources */,
+				499595EF25AEC774001C9BE5 /* ViewController.swift in Sources */,
 				4995467225A16F1E00370261 /* ContentView.swift in Sources */,
+				49C4487A25A5A3110032C316 /* YoutubeView.swift in Sources */,
+				499595F725AED168001C9BE5 /* AppDelegate.swift in Sources */,
+				55BFB01E25A8798500B3B45C /* ImagePickerController.swift in Sources */,
+				55BFB01A25A872D800B3B45C /* SafariView.swift in Sources */,
 				4995467C25A16F2000370261 /* FinalProject.xcdatamodeld in Sources */,
 				4995467025A16F1E00370261 /* FinalProjectApp.swift in Sources */,
+				4995468F25A17F5600370261 /* Page1View.swift in Sources */,
+				499595FC25AED73D001C9BE5 /* SelectPhoto.swift in Sources */,
+				4995962125B035D5001C9BE5 /* Try.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4995960425AEDDC4001C9BE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4995961525AEDDC7001C9BE5 /* Widget.intentdefinition in Sources */,
+				4995961025AEDDC4001C9BE5 /* Widget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4995961825AEDDC7001C9BE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4995960725AEDDC4001C9BE5 /* WidgetExtension */;
+			targetProxy = 4995961725AEDDC7001C9BE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		4995467E25A16F2000370261 /* Debug */ = {
@@ -273,6 +476,7 @@
 		4995468125A16F2000370261 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -294,6 +498,7 @@
 		4995468225A16F2000370261 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -307,6 +512,46 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = lin1999.FinalProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4995961B25AEDDC7001C9BE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Widget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lin1999.FinalProject.Widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4995961C25AEDDC7001C9BE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Widget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lin1999.FinalProject.Widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -333,7 +578,74 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		4995961A25AEDDC7001C9BE5 /* Build configuration list for PBXNativeTarget "WidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4995961B25AEDDC7001C9BE5 /* Debug */,
+				4995961C25AEDDC7001C9BE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		499595EA25AEC6AE001C9BE5 /* XCRemoteSwiftPackageReference "WaterfallGrid" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/paololeonardi/WaterfallGrid";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		499595F225AED05C001C9BE5 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.2.0;
+			};
+		};
+		4995963125B2D411001C9BE5 /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "http://github.com/dmytro-anokhin/url-image.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.1;
+			};
+		};
+		55FD581D25AD6634003D8ED4 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		499595EB25AEC6AE001C9BE5 /* WaterfallGrid */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 499595EA25AEC6AE001C9BE5 /* XCRemoteSwiftPackageReference "WaterfallGrid" */;
+			productName = WaterfallGrid;
+		};
+		499595F325AED05C001C9BE5 /* FacebookLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 499595F225AED05C001C9BE5 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookLogin;
+		};
+		4995963225B2D411001C9BE5 /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4995963125B2D411001C9BE5 /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
+		};
+		55FD581E25AD6634003D8ED4 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 55FD581D25AD6634003D8ED4 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		4995467A25A16F2000370261 /* FinalProject.xcdatamodeld */ = {
